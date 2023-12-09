@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Invalid_Email_Id</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT( REGEX( Email_Id__c , &apos;([a-zA-Z0-9 ._\\-\\.]+)@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})&apos;))</errorConditionFormula>
+    <errorDisplayField>Email_Id__c</errorDisplayField>
+    <errorMessage>This is an invalid Email ID</errorMessage>
+</ValidationRule>
