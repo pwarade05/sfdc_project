@@ -1,7 +1,7 @@
-Insuro
+PolicyStream
 
 Purpose:
-Insuro is a useful online web application designed to help policy companies keep track of policy details, customer information, and company information. This project is extremely helpful for managing policy details, approving policies for customers, and processing policy details.
+PolicyStream is a useful online web application designed to help policy companies keep track of policy details, customer information, and company information. This project is extremely helpful for managing policy details, approving policies for customers, and processing policy details.
 
 Role and Responsibilities:
 
