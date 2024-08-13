@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Name_and_Last_Name_not_same</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(First_Name__c  &lt;&gt;  Last_Name__c)</errorConditionFormula>
+    <errorMessage>First Name and Last Name should not be same</errorMessage>
+</ValidationRule>

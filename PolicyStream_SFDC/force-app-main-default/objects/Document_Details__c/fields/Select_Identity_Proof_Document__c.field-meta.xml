@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Select_Identity_Proof_Document__c</fullName>
+    <externalId>false</externalId>
+    <label>Select Identity Proof Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Driving Licence</fullName>
+                <default>false</default>
+                <label>Driving Licence</label>
+            </value>
+            <value>
+                <fullName>Bank Passbook</fullName>
+                <default>false</default>
+                <label>Bank Passbook</label>
+            </value>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+                <label>Passport</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
