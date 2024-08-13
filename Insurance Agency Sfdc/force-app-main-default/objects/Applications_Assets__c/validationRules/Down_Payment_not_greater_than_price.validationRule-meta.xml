@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Down_Payment_not_greater_than_price</fullName>
-    <active>false</active>
-    <errorConditionFormula>Down_Payment__c &gt; Select_Assets_Insurance__r.Price</errorConditionFormula>
-    <errorDisplayField>Down_Payment__c</errorDisplayField>
-    <errorMessage>Down Payment should not be greater than the Price of Assets</errorMessage>
-</ValidationRule>
